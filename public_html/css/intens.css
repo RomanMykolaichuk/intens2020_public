@@ -1,0 +1,102 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Vollkorn', 'Montserrat',  serif;
+   
+
+
+}
+
+.navbar-brand img {
+    height: 3rem;
+
+}
+
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing:.1rem;
+    box-shadow:  0 .5rem .5rem rgba(0,0,0,.1); 
+
+  /*  background: rgba(57,169,51,0.4);*/
+
+
+
+}
+
+
+
+.nav-item{
+    padding: .5rem;
+
+
+}
+
+video{
+
+    position: relative;
+    object-fit: fill;
+    
+    top:0 rem;
+    width:100%;
+   
+    z-index: -100;
+
+}
+
+.bg-custom1 {
+    background-color: rgba(0,0,0,.3); 
+    border-radius: 1rem;
+}
+.p-custom{
+    
+}
+
+.row{
+    border-radius: 0;
+    
+}
+
+.add-top-m{
+    margin-top: 0rem;
+}
+
+.my-border{
+     border-top: .2rem solid;
+}
+
+
+
+
+
+footer {
+  background: #185117;
+  padding: 1rem 2rem 3rem;
+}
+
+footer img {
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+
+footer p,
+footer a,
+.socket a   {
+  color: white;
+  text-decoration: none;
+}
+
+ul.social {
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+} 
+
+ul.social li {
+  margin: 0 auto;
+}
+
+footer .svg-inline--fa {
+  font-size: 2.3rem;
+}
