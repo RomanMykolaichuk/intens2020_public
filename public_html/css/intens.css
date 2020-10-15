@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    font-family: 'Vollkorn', 'Montserrat',  serif;
+    font-family: 'Fira', monospace;
 
 
 
@@ -26,7 +26,7 @@ body {
 }
 
 .nav-margin{
-    margin-bottom: 18rem;
+    margin-bottom: 19rem;
 }
 
 .nav-item{
@@ -58,6 +58,12 @@ video{
 
 
 }
+.card-body{
+    font-weight: 600;
+    text-align: justify;
+    font-size: 1.2rem;
+
+}
 
 .row{
     border-radius: 0;
@@ -82,11 +88,11 @@ video{
 .carousel-item-prev,
 .carousel-item.active {
     transition: transform 2s ease;
-    
+
 }
 .carousel-caption{
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 5s; /* don't forget to set a duration! */
+    animation-duration: 5s; /* don't forget to set a duration! */
 }
 /*-- Carousel Content --*/
 .carousel-caption{
@@ -94,7 +100,7 @@ video{
     top:50%;
     transform: translateY(-70%);
     text-transform: uppercase;
-    
+
 }
 .bg-custom1 {
     background-color: rgba(0,0,0,.3); 
@@ -119,7 +125,7 @@ video{
     text-transform: uppercase;
     font-size: 1rem;
     border-width: medium;
-    
+
 }
 
 #modal2{
@@ -128,7 +134,7 @@ video{
 
 .partners img{
     height: 7rem;
-    
+
 }
 
 footer {
