@@ -12,6 +12,7 @@ body {
 }
 
 .navbar {
+    position:absolute;
     font-size: 1.15rem;
     font-weight: 600;
     letter-spacing:.1rem;
@@ -46,12 +47,12 @@ video{
 
 }
 
-video+div{
+video + div{
     position:absolute;
-    top:22%;
+    top:9.25rem;
     right:0;
-    transform: translateY(-42%);
-    z-index: -99;
+    transform: translateY(-20%);
+    z-index: -98;
 }
 .bg-custom1 {
     background-color: rgba(0,0,0,.3); 
@@ -66,10 +67,18 @@ video+div{
 
 }
 .card-body{
-    font-weight: 600;
+    font-weight: 400;
     text-align: justify;
     font-size: 1.2rem;
 
+}
+
+.card-body ul {
+    font-size: 1.1rem;
+
+    margin: 0;
+    padding:0;
+    list-style-type: none;
 }
 
 .row{
