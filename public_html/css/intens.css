@@ -66,6 +66,11 @@ video + div{
 
 
 }
+
+.card img{
+    
+    height:20rem;
+}
 .card-body{
     font-weight: 400;
     text-align: justify;
@@ -144,7 +149,7 @@ video + div{
 
 }
 
-#modal2{
+.modal{
     background-color: rgba(255,255,255,0.93)
 }
 
